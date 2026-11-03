@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="790" viewBox="0 0 1440 790" role="img" aria-labelledby="title">
+<title id="title">重构后更新 AGENTS.md 的说明性示例</title>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d31"/><stop offset="1" stop-color="#08111e"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M 48 0 L 0 0 0 48" fill="none" stroke="#223449" stroke-width="0.6" opacity="0.45"/></pattern>
+<linearGradient id="line"><stop stop-color="#b5f0a2"/><stop offset="1" stop-color="#87d9fa"/></linearGradient></defs>
+<rect width="1440" height="790" rx="24" fill="url(#bg)"/><rect width="1440" height="790" rx="24" fill="url(#grid)"/>
+<style>text{font-family:Inter,'Segoe UI','Microsoft YaHei','Noto Sans CJK SC',sans-serif} .mono{font-family:'Cascadia Code',Consolas,'Microsoft YaHei',monospace}</style>
+<text x="64" y="57" font-size="18" fill="#b5f0a2" font-weight="600" class="" text-anchor="start">03 / EXAMPLE UPDATE</text>
+<text x="64" y="119" font-size="44" fill="#edf3f8" font-weight="700" class="" text-anchor="start">把过时说明，更新为准确约定</text>
+<text x="64" y="164" font-size="23" fill="#a9b9cc" font-weight="400" class="" text-anchor="start">示例：项目已切换包管理器与目录，接口约定继续有效。</text>
+<rect x="64" y="218" width="610" height="429" rx="18" fill="#251f2c" stroke="#5c4658"/>
+<rect x="766" y="218" width="610" height="429" rx="18" fill="#162c2a" stroke="#496d59"/>
+<text x="94" y="264" font-size="22" fill="#edb0af" font-weight="700" class="" text-anchor="start">BEFORE</text>
+<text x="796" y="264" font-size="22" fill="#b5f0a2" font-weight="700" class="" text-anchor="start">AFTER</text>
+<text x="94" y="310" font-size="23" fill="#a9b9cc" font-weight="400" class="mono" text-anchor="start"># Commands</text>
+<text x="94" y="345" font-size="23" fill="#edf3f8" font-weight="400" class="mono" text-anchor="start">npm run dev</text>
+<text x="94" y="380" font-size="23" fill="#edf3f8" font-weight="400" class="mono" text-anchor="start">npm test</text>
+<text x="94" y="415" font-size="23" fill="#edf3f8" font-weight="400" class="mono" text-anchor="start"></text>
+<text x="94" y="450" font-size="23" fill="#a9b9cc" font-weight="400" class="mono" text-anchor="start"># Code layout</text>
+<text x="94" y="485" font-size="23" fill="#edf3f8" font-weight="400" class="mono" text-anchor="start">src/logic/</text>
+<text x="94" y="520" font-size="23" fill="#edf3f8" font-weight="400" class="mono" text-anchor="start"></text>
+<text x="94" y="555" font-size="23" fill="#a9b9cc" font-weight="400" class="mono" text-anchor="start"># API contract</text>
+<text x="94" y="590" font-size="23" fill="#edf3f8" font-weight="400" class="mono" text-anchor="start">{ data, error }</text>
+<text x="796" y="310" font-size="23" fill="#a9b9cc" font-weight="400" class="mono" text-anchor="start"># Commands</text>
+<text x="796" y="345" font-size="23" fill="#b5f0a2" font-weight="400" class="mono" text-anchor="start">pnpm dev</text>
+<text x="796" y="380" font-size="23" fill="#b5f0a2" font-weight="400" class="mono" text-anchor="start">pnpm check</text>
+<text x="796" y="415" font-size="23" fill="#a9b9cc" font-weight="400" class="mono" text-anchor="start">仅检查入口文件语法</text>
+<text x="796" y="450" font-size="23" fill="#a9b9cc" font-weight="400" class="mono" text-anchor="start"># Code layout</text>
+<text x="796" y="485" font-size="23" fill="#b5f0a2" font-weight="400" class="mono" text-anchor="start">src/services/</text>
+<text x="796" y="520" font-size="23" fill="#edf3f8" font-weight="400" class="mono" text-anchor="start"></text>
+<text x="796" y="555" font-size="23" fill="#a9b9cc" font-weight="400" class="mono" text-anchor="start"># API contract</text>
+<text x="796" y="590" font-size="23" fill="#edf3f8" font-weight="400" class="mono" text-anchor="start">{ data, error }</text>
+<path d="M690 424 L748 424" fill="none" stroke="#b5f0a2" stroke-width="3"/>
+<path d="M738 417 L748 424 L738 431" fill="none" stroke="#b5f0a2" stroke-width="3"/>
+<rect x="64" y="683" width="270" height="44" rx="22" fill="#182a3d" stroke="#395267"/>
+<text x="199.0" y="712" font-size="19" fill="#b5f0a2" font-weight="600" class="" text-anchor="middle">核实后的命令</text>
+<rect x="358" y="683" width="270" height="44" rx="22" fill="#182a3d" stroke="#395267"/>
+<text x="493.0" y="712" font-size="19" fill="#87d9fa" font-weight="600" class="" text-anchor="middle">明确检查范围</text>
+<rect x="652" y="683" width="270" height="44" rx="22" fill="#182a3d" stroke="#395267"/>
+<text x="787.0" y="712" font-size="19" fill="#bba9ff" font-weight="600" class="" text-anchor="middle">保留有效约定</text>
+<rect x="946" y="683" width="430" height="44" rx="22" fill="#182a3d" stroke="#395267"/>
+<text x="1161.0" y="712" font-size="19" fill="#f0cb8d" font-weight="600" class="" text-anchor="middle">按目标项目生成，示例不直接套用</text>
+<text x="64" y="756" font-size="17" fill="#8c9eb5" font-weight="400" class="" text-anchor="start">use-agentsmd  /  Project guidance, kept current.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="690" viewBox="0 0 1440 690" role="img" aria-labelledby="title">
+<title id="title">use-agentsmd — 让项目规则跟上 Vibe coding 的变化</title>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d31"/><stop offset="1" stop-color="#08111e"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M 48 0 L 0 0 0 48" fill="none" stroke="#223449" stroke-width="0.6" opacity="0.45"/></pattern>
+<linearGradient id="line"><stop stop-color="#b5f0a2"/><stop offset="1" stop-color="#87d9fa"/></linearGradient></defs>
+<rect width="1440" height="690" rx="24" fill="url(#bg)"/><rect width="1440" height="690" rx="24" fill="url(#grid)"/>
+<style>text{font-family:Inter,'Segoe UI','Microsoft YaHei','Noto Sans CJK SC',sans-serif} .mono{font-family:'Cascadia Code',Consolas,'Microsoft YaHei',monospace}</style>
+<text x="72" y="88" font-size="19" fill="#b5f0a2" font-weight="600" class="" text-anchor="start">AGENT SKILL  /  VIBE CODING</text>
+<text x="68" y="226" font-size="89" fill="#edf3f8" font-weight="750" class="" text-anchor="start">use-agentsmd</text>
+<text x="72" y="305" font-size="38" fill="#edf3f8" font-weight="600" class="" text-anchor="start">让项目规则，跟上代码的变化。</text>
+<text x="74" y="365" font-size="24" fill="#a9b9cc" font-weight="400" class="" text-anchor="start">开工前创建 · 跑通后校准 · 长期约定变化时更新</text>
+<text x="74" y="409" font-size="24" fill="#a9b9cc" font-weight="400" class="" text-anchor="start">从原型到维护，给下一位 AI 一份准确的项目说明。</text>
+<rect x="74" y="499" width="184" height="44" rx="22" fill="#182a3d" stroke="#395267"/>
+<text x="166.0" y="528" font-size="19" fill="#b5f0a2" font-weight="600" class="" text-anchor="middle">阶段判断</text>
+<rect x="276" y="499" width="184" height="44" rx="22" fill="#182a3d" stroke="#395267"/>
+<text x="368.0" y="528" font-size="19" fill="#87d9fa" font-weight="600" class="" text-anchor="middle">项目证据</text>
+<rect x="478" y="499" width="220" height="44" rx="22" fill="#182a3d" stroke="#395267"/>
+<text x="588.0" y="528" font-size="19" fill="#bba9ff" font-weight="600" class="" text-anchor="middle">最小必要更新</text>
+<rect x="954" y="125" width="394" height="412" rx="22" fill="#0b1626" stroke="#415976"/>
+<rect x="979" y="101" width="344" height="58" rx="16" fill="#1c3147" stroke="#496078"/>
+<text x="1010" y="140" font-size="31" fill="#b5f0a2" font-weight="650" class="mono" text-anchor="start">AGENTS.md</text>
+<text x="987" y="216" font-size="22" fill="#87d9fa" font-weight="600" class="" text-anchor="start">Project context</text>
+<rect x="987" y="235" width="236" height="6" rx="3" fill="#30455f" stroke="none"/>
+<rect x="987" y="253" width="185" height="6" rx="3" fill="#30455f" stroke="none"/>
+<text x="987" y="320" font-size="22" fill="#bba9ff" font-weight="600" class="" text-anchor="start">Commands &amp; checks</text>
+<rect x="987" y="339" width="254" height="6" rx="3" fill="#30455f" stroke="none"/>
+<rect x="987" y="357" width="162" height="6" rx="3" fill="#30455f" stroke="none"/>
+<text x="987" y="424" font-size="22" fill="#f0cb8d" font-weight="600" class="" text-anchor="start">Working conventions</text>
+<rect x="987" y="443" width="230" height="6" rx="3" fill="#30455f" stroke="none"/>
+<rect x="987" y="461" width="192" height="6" rx="3" fill="#30455f" stroke="none"/>
+<path d="M72 586 L1348 586" fill="none" stroke="#30455f" stroke-width="2"/>
+<text x="74" y="630" font-size="19" fill="#a9b9cc" font-weight="400" class="" text-anchor="start">Adopts the AGENTS.md convention · Independent community project</text>
+</svg>

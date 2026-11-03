@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="850" viewBox="0 0 1440 850" role="img" aria-labelledby="title">
+<title id="title">六个阶段，六种 AGENTS.md 维护重点</title>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d31"/><stop offset="1" stop-color="#08111e"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M 48 0 L 0 0 0 48" fill="none" stroke="#223449" stroke-width="0.6" opacity="0.45"/></pattern>
+<linearGradient id="line"><stop stop-color="#b5f0a2"/><stop offset="1" stop-color="#87d9fa"/></linearGradient></defs>
+<rect width="1440" height="850" rx="24" fill="url(#bg)"/><rect width="1440" height="850" rx="24" fill="url(#grid)"/>
+<style>text{font-family:Inter,'Segoe UI','Microsoft YaHei','Noto Sans CJK SC',sans-serif} .mono{font-family:'Cascadia Code',Consolas,'Microsoft YaHei',monospace}</style>
+<text x="64" y="57" font-size="18" fill="#b5f0a2" font-weight="600" class="" text-anchor="start">01 / LIFECYCLE</text>
+<text x="64" y="119" font-size="44" fill="#edf3f8" font-weight="700" class="" text-anchor="start">项目在变化，记录重点也随之变化</text>
+<text x="64" y="164" font-size="23" fill="#a9b9cc" font-weight="400" class="" text-anchor="start">先判断实际阶段，再选择有证据、会持续适用的内容。</text>
+<rect x="64" y="209" width="424" height="252" rx="18" fill="#15243a" stroke="#31435c"/>
+<text x="88" y="251" font-size="22" fill="#b5f0a2" font-weight="700" class="mono" text-anchor="start">01</text>
+<text x="140" y="252" font-size="29" fill="#edf3f8" font-weight="650" class="" text-anchor="start">开工</text>
+<text x="89" y="284" font-size="14" fill="#a9b9cc" font-weight="600" class="" text-anchor="start">START</text>
+<text x="89" y="332" font-size="26" fill="#b5f0a2" font-weight="600" class="" text-anchor="start">·</text>
+<text x="109" y="332" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">项目目标与首期范围</text>
+<text x="89" y="376" font-size="26" fill="#b5f0a2" font-weight="600" class="" text-anchor="start">·</text>
+<text x="109" y="376" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">已确认的技术选择</text>
+<text x="89" y="420" font-size="26" fill="#b5f0a2" font-weight="600" class="" text-anchor="start">·</text>
+<text x="109" y="420" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">工作边界</text>
+<rect x="508" y="209" width="424" height="252" rx="18" fill="#15243a" stroke="#31435c"/>
+<text x="532" y="251" font-size="22" fill="#87d9fa" font-weight="700" class="mono" text-anchor="start">02</text>
+<text x="584" y="252" font-size="29" fill="#edf3f8" font-weight="650" class="" text-anchor="start">搭建</text>
+<text x="533" y="284" font-size="14" fill="#a9b9cc" font-weight="600" class="" text-anchor="start">BOOTSTRAP</text>
+<text x="533" y="332" font-size="26" fill="#87d9fa" font-weight="600" class="" text-anchor="start">·</text>
+<text x="553" y="332" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">实际目录与包管理器</text>
+<text x="533" y="376" font-size="26" fill="#87d9fa" font-weight="600" class="" text-anchor="start">·</text>
+<text x="553" y="376" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">安装、启动与检查入口</text>
+<text x="533" y="420" font-size="26" fill="#87d9fa" font-weight="600" class="" text-anchor="start">·</text>
+<text x="553" y="420" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">必要环境前提</text>
+<rect x="952" y="209" width="424" height="252" rx="18" fill="#15243a" stroke="#31435c"/>
+<text x="976" y="251" font-size="22" fill="#bba9ff" font-weight="700" class="mono" text-anchor="start">03</text>
+<text x="1028" y="252" font-size="29" fill="#edf3f8" font-weight="650" class="" text-anchor="start">首个可用版本</text>
+<text x="977" y="284" font-size="14" fill="#a9b9cc" font-weight="600" class="" text-anchor="start">FIRST WORKING VERSION</text>
+<text x="977" y="332" font-size="26" fill="#bba9ff" font-weight="600" class="" text-anchor="start">·</text>
+<text x="997" y="332" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">代码组织与公共组件</text>
+<text x="977" y="376" font-size="26" fill="#bba9ff" font-weight="600" class="" text-anchor="start">·</text>
+<text x="997" y="376" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">接口和数据约定</text>
+<text x="977" y="420" font-size="26" fill="#bba9ff" font-weight="600" class="" text-anchor="start">·</text>
+<text x="997" y="420" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">核心流程验证入口</text>
+<rect x="64" y="487" width="424" height="252" rx="18" fill="#15243a" stroke="#31435c"/>
+<text x="88" y="529" font-size="22" fill="#b5f0a2" font-weight="700" class="mono" text-anchor="start">04</text>
+<text x="140" y="530" font-size="29" fill="#edf3f8" font-weight="650" class="" text-anchor="start">持续迭代</text>
+<text x="89" y="562" font-size="14" fill="#a9b9cc" font-weight="600" class="" text-anchor="start">ITERATE</text>
+<text x="89" y="610" font-size="26" fill="#b5f0a2" font-weight="600" class="" text-anchor="start">·</text>
+<text x="109" y="610" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">新的长期开发约定</text>
+<text x="89" y="654" font-size="26" fill="#b5f0a2" font-weight="600" class="" text-anchor="start">·</text>
+<text x="109" y="654" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">模块职责与复用入口</text>
+<text x="89" y="698" font-size="26" fill="#b5f0a2" font-weight="600" class="" text-anchor="start">·</text>
+<text x="109" y="698" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">相关检查要求</text>
+<rect x="508" y="487" width="424" height="252" rx="18" fill="#15243a" stroke="#31435c"/>
+<text x="532" y="529" font-size="22" fill="#87d9fa" font-weight="700" class="mono" text-anchor="start">05</text>
+<text x="584" y="530" font-size="29" fill="#edf3f8" font-weight="650" class="" text-anchor="start">重构</text>
+<text x="533" y="562" font-size="14" fill="#a9b9cc" font-weight="600" class="" text-anchor="start">REFACTOR</text>
+<text x="533" y="610" font-size="26" fill="#87d9fa" font-weight="600" class="" text-anchor="start">·</text>
+<text x="553" y="610" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">迁移目标与实际状态</text>
+<text x="533" y="654" font-size="26" fill="#87d9fa" font-weight="600" class="" text-anchor="start">·</text>
+<text x="553" y="654" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">新命令、新目录与契约</text>
+<text x="533" y="698" font-size="26" fill="#87d9fa" font-weight="600" class="" text-anchor="start">·</text>
+<text x="553" y="698" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">清理已失效的说明</text>
+<rect x="952" y="487" width="424" height="252" rx="18" fill="#15243a" stroke="#31435c"/>
+<text x="976" y="529" font-size="22" fill="#f0cb8d" font-weight="700" class="mono" text-anchor="start">06</text>
+<text x="1028" y="530" font-size="29" fill="#edf3f8" font-weight="650" class="" text-anchor="start">上线与维护</text>
+<text x="977" y="562" font-size="14" fill="#a9b9cc" font-weight="600" class="" text-anchor="start">OPERATE</text>
+<text x="977" y="610" font-size="26" fill="#f0cb8d" font-weight="600" class="" text-anchor="start">·</text>
+<text x="997" y="610" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">验证与部署入口</text>
+<text x="977" y="654" font-size="26" fill="#f0cb8d" font-weight="600" class="" text-anchor="start">·</text>
+<text x="997" y="654" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">运维和配置文档</text>
+<text x="977" y="698" font-size="26" fill="#f0cb8d" font-weight="600" class="" text-anchor="start">·</text>
+<text x="997" y="698" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">适用的操作要求</text>
+<text x="64" y="816" font-size="17" fill="#8c9eb5" font-weight="400" class="" text-anchor="start">阶段是维护方法，非官方强制模型；不同模块可以处于不同阶段。</text>
+</svg>

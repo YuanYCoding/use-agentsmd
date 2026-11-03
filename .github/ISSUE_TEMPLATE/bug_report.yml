@@ -1,0 +1,24 @@
+name: Report a maintenance problem
+description: Report an incorrect AGENTS.md decision with a minimal example.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Host, version, and skill release or commit.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Sanitized request, project files, and original AGENTS.md. Do not include secrets or private data.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Actual and expected behavior
+    validations:
+      required: true

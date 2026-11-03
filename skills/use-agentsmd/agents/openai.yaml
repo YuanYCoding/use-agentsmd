@@ -1,0 +1,3 @@
+interface:
+  display_name: "use-agentsmd"
+  short_description: "按 Vibe coding 阶段创建、校准和更新项目 AGENTS.md"

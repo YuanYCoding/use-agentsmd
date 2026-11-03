@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="800" viewBox="0 0 1440 800" role="img" aria-labelledby="title">
+<title id="title">区分长期项目约定与一次性任务信息</title>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d31"/><stop offset="1" stop-color="#08111e"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M 48 0 L 0 0 0 48" fill="none" stroke="#223449" stroke-width="0.6" opacity="0.45"/></pattern>
+<linearGradient id="line"><stop stop-color="#b5f0a2"/><stop offset="1" stop-color="#87d9fa"/></linearGradient></defs>
+<rect width="1440" height="800" rx="24" fill="url(#bg)"/><rect width="1440" height="800" rx="24" fill="url(#grid)"/>
+<style>text{font-family:Inter,'Segoe UI','Microsoft YaHei','Noto Sans CJK SC',sans-serif} .mono{font-family:'Cascadia Code',Consolas,'Microsoft YaHei',monospace}</style>
+<text x="64" y="57" font-size="18" fill="#b5f0a2" font-weight="600" class="" text-anchor="start">04 / CONTENT FILTER</text>
+<text x="64" y="119" font-size="44" fill="#edf3f8" font-weight="700" class="" text-anchor="start">留下约定，让下一位 AI 少走弯路</text>
+<text x="64" y="164" font-size="23" fill="#a9b9cc" font-weight="400" class="" text-anchor="start">已经确认 + 持续适用 + 有助后续工作，才值得进入项目说明。</text>
+<rect x="64" y="218" width="634" height="420" rx="18" fill="#152f2b" stroke="#466f5b"/>
+<rect x="742" y="218" width="634" height="420" rx="18" fill="#28283a" stroke="#5f577a"/>
+<text x="96" y="272" font-size="30" fill="#b5f0a2" font-weight="650" class="" text-anchor="start">写入 AGENTS.md</text>
+<text x="774" y="272" font-size="30" fill="#bba9ff" font-weight="650" class="" text-anchor="start">留在任务或交付记录</text>
+<text x="97" y="340" font-size="24" fill="#b5f0a2" font-weight="700" class="" text-anchor="start">+</text>
+<text x="127" y="340" font-size="24" fill="#edf3f8" font-weight="400" class="" text-anchor="start">统一使用现有请求模块</text>
+<text x="775" y="340" font-size="28" fill="#bba9ff" font-weight="700" class="" text-anchor="start">·</text>
+<text x="805" y="340" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">这次把按钮文字改成“立即保存”</text>
+<text x="97" y="415" font-size="24" fill="#b5f0a2" font-weight="700" class="" text-anchor="start">+</text>
+<text x="127" y="415" font-size="24" fill="#edf3f8" font-weight="400" class="" text-anchor="start">实际有效的命令和执行目录</text>
+<text x="775" y="415" font-size="28" fill="#bba9ff" font-weight="700" class="" text-anchor="start">·</text>
+<text x="805" y="415" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">今天做到哪一步、下一步做什么</text>
+<text x="97" y="490" font-size="24" fill="#b5f0a2" font-weight="700" class="" text-anchor="start">+</text>
+<text x="127" y="490" font-size="24" fill="#edf3f8" font-weight="400" class="" text-anchor="start">已确认的接口与复用约定</text>
+<text x="775" y="490" font-size="28" fill="#bba9ff" font-weight="700" class="" text-anchor="start">·</text>
+<text x="805" y="490" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">尚未采用的实验方案</text>
+<text x="97" y="565" font-size="24" fill="#b5f0a2" font-weight="700" class="" text-anchor="start">+</text>
+<text x="127" y="565" font-size="24" fill="#edf3f8" font-weight="400" class="" text-anchor="start">项目特有的操作条件和注意事项</text>
+<text x="775" y="565" font-size="28" fill="#bba9ff" font-weight="700" class="" text-anchor="start">·</text>
+<text x="805" y="565" font-size="23" fill="#edf3f8" font-weight="400" class="" text-anchor="start">未证实的故障猜测与临时绕过</text>
+<rect x="64" y="679" width="1312" height="63" rx="14" fill="#142236" stroke="#3c506b"/>
+<text x="720" y="719" font-size="25" fill="#edf3f8" font-weight="500" class="" text-anchor="middle">局部纠正保留局部范围；过时规则及时替换；没有变化就保持不变。</text>
+<text x="64" y="766" font-size="17" fill="#8c9eb5" font-weight="400" class="" text-anchor="start">use-agentsmd  /  Project guidance, kept current.</text>
+</svg>
